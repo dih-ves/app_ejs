@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_check"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/nav_check"
+            android:checked="true" />
+
+        <item android:id="@+id/nav_agenda"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="@string/nav_agenda"
+            android:checked="true" />
+
+        <item android:id="@+id/nav_mensagens"
+            android:icon="@android:drawable/dialog_frame"
+            android:title="@string/nav_mensagens"
+            android:checked="true" />
+
+    </group>
+</menu>

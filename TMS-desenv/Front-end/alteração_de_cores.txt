@@ -1,0 +1,9 @@
+#c9357d -> #4b4b4b
+#cd5f58 -> #696969
+#f5dbe8 -> #A9A9A9
+#fbfbfb -> #4b4b4b
+
+po-menu{background-color:#DCDCDC;
+.po-menu-sub-item-selected{background-color:#d3d3d3
+.po-modal-overlay{background-color:rgba(59,28,74,.7) -> po-modal-overlay{background-color:rgba(63,58,66,.7)
+.po-button-danger{background-color:rgba(0,0,0,0);border:1px solid #c64840;color:#c64840} -> .po-button-danger{background-color:rgba(0,0,0,0);border:1px solid #808080;color:#808080}

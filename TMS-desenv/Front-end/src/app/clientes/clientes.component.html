@@ -1,0 +1,28 @@
+<po-page-list
+    p-title="Cadastro de Clientes"
+    [p-actions]="actions_page"
+    [p-disclaimer-group]="disclaimerGroup"
+    [p-filter]="filterSettings"
+  >    
+        <po-table
+            p-container
+            p-height="400"
+            p-hide-text-overflow
+            p-striped="true"
+            [p-actions]="actions_table"
+            [p-columns]="columns"
+            [p-items]="listaClientesFiltrados"
+            [p-max-columns]="7"
+        >
+        </po-table>
+</po-page-list>
+
+<po-modal id="modal" [p-title]="tituloTela" [p-primary-action]="confirm" [p-secondary-action]="close" p-size="auto">
+    <po-dynamic-form
+    p-auto-focus="cliente"
+    [p-fields]="camposForm"
+    [p-value]="clienteForm"
+    [p-validate]="validCampos.bind(this)"
+  >
+  </po-dynamic-form>
+</po-modal>

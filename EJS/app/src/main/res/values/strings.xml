@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">APP EJS</string>
+    <string name="mensagem_inicial"> Bem-vindo à EJS Transportes</string>
+    <string name="action_buscar">Buscar</string>
+    <string name="action_atualizar">Atualizar</string>
+    <string name="action_config">Configurar</string>
+    <string name="nav_jornada">Check</string>
+    <string name="nav_agenda">Agenda</string>
+    <string name="nav_check">Check</string>
+    <string name="nav_mensagens">Mensagens</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Fechar</string>
+</resources>
